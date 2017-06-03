@@ -1,0 +1,199 @@
+/* Styles go here */
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+a:hover,
+a:focus,
+p a {
+    text-decoration: underline
+}
+
+.text-muted {
+    color: #697176
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 400
+}
+
+.shopify-preview-bar {
+    display: none
+}
+
+.panel-floating {
+    border-top: 5px solid #6b15a1;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.panel-floating-inline {
+    margin-left: -20px;
+    margin-right: -20px
+}
+
+    .panel-floating-inline .panel-body {
+        padding: 20px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .panel-floating-inline .panel-actions {
+        -webkit-box-flex: 10;
+        -webkit-flex-grow: 10;
+        -ms-flex-positive: 10;
+        flex-grow: 10
+    }
+
+        .panel-floating-inline .panel-actions .panel-email-input {
+            width: 220px
+        }
+
+    .panel-floating-inline .panel-thumbnail {
+        display: block;
+        -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        margin: 0 20px -21px 0;
+        width: 140px
+    }
+
+        .panel-floating-inline .panel-thumbnail > img {
+            max-width: 100%
+        }
+
+.panel-floating-fixed {
+    display: block;
+    position: fixed;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.32);
+    bottom: 20px;
+    right: 20px;
+    width: 280px;
+    margin-bottom: 0;
+    border-top: 5px solid #6b15a1;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 14px;
+    z-index: 40;
+    /*
+    -webkit-animation-name: bounceInUp;
+    animation-name: bounceInUp;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    */
+}
+
+    .panel-floating-fixed.dismissed {
+        -webkit-animation-name: bounceOutDown;
+        animation-name: bounceOutDown;
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s
+    }
+
+    .panel-floating-fixed .panel-content {
+        font-size: 13px
+    }
+
+@media (min-width: 992px) {
+    .panel-floating-inline {
+        margin-left: -40px;
+        margin-right: -40px
+    }
+
+        .panel-floating-inline .panel-body {
+            padding: 26px 40px
+        }
+
+        .panel-floating-inline .panel-actions .panel-email-input {
+            width: 340px
+        }
+
+        .panel-floating-inline .panel-thumbnail {
+            margin: -10px 30px -26px 0;
+            width: 220px
+        }
+}
+
+.panel-profile .panel-title {
+    margin-bottom: 5px
+}
+
+.panel-profilex .panel-headingx {
+    height: 150px;
+    background-size: cover
+}
+
+.panel-profile-imgx {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+}
+
+.panel-menu {
+    list-style: none;
+    padding: 0
+}
+
+.panel-menu-item {
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid var(--colorGrayLighter)
+}
+
+    .panel-menu-item:last-child {
+        border-right: 0
+    }
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background: #6b15a1;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.btn-full-width {
+    width: 100%;
+}
+
+.btn2 {
+    display: inline-block;
+    font-size: 14px;
+    padding: 7px 24px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #6b15a1;
+    font-weight: 400;
+}
