@@ -1,3 +1,6 @@
+http://github.com - automatic!
+[GitHub](http://github.com)
+
 | Commande | réponse |
 | ------ | ------ |
 | Demain réveil à 8h. | Je serai allumée à 8h. |
